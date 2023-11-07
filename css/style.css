@@ -1,0 +1,288 @@
+:root {
+    --Vino: #530808;
+    --Negro: #000000;
+    --Blanco: #ffffff;
+    --BloqueA: #631d69;
+    --BloqueB: #009c68;
+    --BloqueC: #ffb30f;
+
+    --SI_Aprobada:#b0f2c2;
+    --NO_Aprobada:#ff6861;
+    --AUNNO_Cursada:#b2dafa;
+
+    --fuentePrincipal: 'Signika', sans-serif;
+    --fuenteSecundaria: 'Oswald', cursive;
+}
+
+
+/*Hacks*/
+html{
+    box-sizing: border-box;
+    font-size: 20%;
+ }
+
+
+ *, *:before, *:after{
+    box-sizing: inherit;
+ }
+
+
+ /*Vlores Globales*/
+
+ body{
+    background-color: var(--blanco);
+    font-size: 1.6rem;
+    line-height: 1.5;  /*Es la función de la  base de la fuente*/
+ }
+
+
+ p {
+    font-size: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Negro)
+ }
+
+
+ .contenedor_principal{
+    max-width: 120rem;
+    margin: 0 auto;
+ }
+
+
+/*Contiene todo los recuadros*/
+ .contenedor_info{
+    display: inline-block;
+    background-color: var(--Negro);
+    border-radius: 1rem;
+    padding: 5rem;
+    margin-top: 6rem;
+}
+
+
+/*Contiene todo los recuadros*/
+.contenedor_info2{
+    display: inline-block;
+    background-color: var(--Blanco);
+    border-radius: 1rem;
+    padding: 6rem;
+    margin-top: 7rem;
+}
+
+
+h1{
+    text-align: center;
+    font-family:  var(--fuentePrincipal);
+    color: var(--Blanco);
+    font-size: 20rem;
+}
+
+
+h2{
+    text-align: center;
+    font-family:  var(--fuentePrincipal);
+    color: var(--negro);
+    font-size: 8rem;
+}
+
+
+.header{
+    background-color: var(--Vino);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    width: 121%;
+}
+
+
+/*footer*/
+.footer{
+    background-color: var(--Blanco);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+
+/*Materia*/
+.Materia{
+    background-color: var(--Blanco);
+    width: 80rem; 
+    height: 50rem;
+    padding: 2rem;
+    flex: 180rem;
+}
+ 
+.SI_Aprobada{
+    background-color: var(--SI_Aprobada);
+}
+
+.NO_Aprobada{
+    background-color: var(--NO_Aprobada);
+}
+
+.AUNNO_Cursada{
+    background-color: var(--AUNNO_Cursada);
+}
+
+.Dato__Cuatri{
+    font-family: var(--fuentePrincipal);
+    line-height: 0;
+    text-align: left;
+    font-size: 5rem;  
+}
+
+.Dato__Cursada{
+    font-family: var(--fuentePrincipal);
+    line-height: 0;
+    text-align: left;
+    font-size: 5rem;  
+}
+
+.Dato__Materia{
+    font-family: var(--fuentePrincipal);
+    line-height: 4rem; /*Hace que no amontone el texo, le da interlineado*/
+    text-align: center;
+    font-size: 5rem;  
+    padding: 5rem;
+    flex: 1;
+}
+
+.Dato__Codigo{
+    font-family: var(--fuentePrincipal);
+    line-height: 0;
+    /*text-align: center end;*/
+    font-size: 5rem;  
+    text-align: center;
+}
+
+
+.Dato__Calif{
+    font-family: var(--fuentePrincipal);
+    line-height: 1rem;
+    text-align: center;
+    font-size: 5rem;  
+}
+
+
+
+/*Grid Materia*/
+
+.gridMateria{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2rem;
+}
+
+
+@media only screen and (min-width: 768px){
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: 2rem;
+    }
+    
+}
+
+
+
+/*Graficos*/
+.GraficoA{      /*Recuadros de Color: Cabezera del Ciclo*/
+    min-width: 20rem;
+    display: flex;
+    justify-content: center; /* Esto centrará el contenido horizontalmente */
+    align-items: center;     /* Esto centrará el contenido verticalmente */
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1/2;      
+}
+
+.GraficoB{      /*Recuadros de Color: Columna completa de Cierre de Ciclo*/
+    min-width: 35rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 2/9;      /*Abarca de la Fila 2 a la 9*/
+}
+
+
+/*----------------------------------------------------------------------*/
+
+/*Columnas de Ciclo*/
+.Ciclo--a{
+    background-color: var(--BloqueA);
+    grid-column: 1/5;     /*Primer Columna / Abarca 5 Columnas*/
+}
+
+
+.Ciclo--b{
+    background-color: var(--BloqueB);
+    grid-column: 5/9;
+}
+
+.Ciclo--c{
+    background-color: var(--BloqueC);
+    grid-column: 9/13;
+}
+
+/*----------------------------------------------------------------------*/
+
+/*Columnas de Cierre del Ciclo*/
+.CicloCierre--a{
+    background-color: var(--BloqueA);
+    grid-column: 4/4;
+}
+
+.CicloCierre--b{
+    background-color: var(--BloqueB);
+    grid-column: 8/8;
+}
+
+.CicloCierre--c{
+    background-color: var(--BloqueC);
+    grid-column: 12/12;
+}
+
+
+
+@media only screen and (min-width: 768px){
+
+    .GraficoA{
+        min-width: 25rem;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-row: 1/2;  /*Primer fila /  Abarca 2 filas*/
+    }
+}
+
+
+
+@media only screen and (min-width: 768px){
+
+    .GraficoB{
+        min-width: 35rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-row: 2/9;   /*Segunda fila / Abarca 8 filas*/
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*Grid Dato*/
+
+.gridDato{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 30rem;
+}
+
+.Dato{
+    width: 60rem; 
+    height: 50rem;
+    padding: 2rem;
+    flex: 180rem;
+    border-radius: 3rem;
+}

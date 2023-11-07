@@ -1,0 +1,537 @@
+{
+"Materias":[
+
+    {
+      "cuatrimestre": 1,
+      "cursada": 1,
+      "materia": "INGLÉS I",
+      "codigo": "IN1-LC",
+      "calificacion": 9
+    },
+
+    {
+        "cuatrimestre": 1,
+        "cursada": 1,
+        "materia": "QUÍMICA BÁSICA",
+        "codigo": "QUB-FC",
+        "calificacion": 10
+      },
+
+      {
+        "cuatrimestre": 1,
+        "cursada": 1,
+        "materia": "ÁLGEBRA LINEAL",
+        "codigo": "ALL-FC",
+        "calificacion": 10
+      },
+
+      {
+        "cuatrimestre": 1,
+        "cursada": 1,
+        "materia": "INTRODUCCIÓN A LA PROGRAMACIÓN",
+        "codigo": "INP-FC",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 1,
+        "cursada": 1,
+        "materia": "INTRODUCCIÓN A LAS TECNOLOGÍAS DE INFORMACIÓN",
+        "codigo": "ITI-FC",
+        "calificacion": 10
+      },
+
+      {
+        "cuatrimestre": 1,
+        "cursada": 1,
+        "materia": "HERRAMIENTAS OFIMÁTICAS",
+        "codigo": "HEO-LC",
+        "calificacion": 9
+      },
+
+    
+      {
+        "cuatrimestre": 1,
+        "cursada": 1,
+        "materia": "EXPRESIÓN ORAL Y ESCRITA I",
+        "codigo": "EO1-LC",
+        "calificacion": 8
+      },
+
+
+
+
+      {
+        "cuatrimestre": 2,
+        "cursada": 1,
+        "materia": "INGLÉS II",
+        "codigo": "IN2-LC",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 2,
+        "cursada": 1,
+        "materia": "DESARROLLO HUMANO Y VALORES",
+        "codigo": "DHV-CE",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 2,
+        "cursada": 1,
+        "materia": "FUNCIONES MATEMÁTICAS",
+        "codigo": "FUM-FC",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 2,
+        "cursada": 1,
+        "materia": "FÍSICA",
+        "codigo": "FIS-FC",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 2,
+        "cursada": 1,
+        "materia": "ELECTRICIDAD Y MAGNETISMO",
+        "codigo": "ELM-FC",
+        "calificacion": 9
+      },
+      
+      {
+        "cuatrimestre": 2,
+        "cursada": 1,
+        "materia": "MATEMÁTICAS BÁSICAS PARA COMPUTACIÓN",
+        "codigo": "MBC-FC",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 2,
+        "cursada": 1,
+        "materia": "ARQUITECTURA DE COMPUTADORA",
+        "codigo": "ARC-FC",
+        "calificacion": 8
+      },
+
+
+
+      {
+        "cuatrimestre": 3,
+        "cursada": 1,
+        "materia": "INGLÉS III",
+        "codigo": "IN3-LC",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 3,
+        "cursada": 1,
+        "materia": "INTELIGENCIA EMOCIONAL Y MANEJO DE CONFLICTOS",
+        "codigo": "IEM-CE",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 3,
+        "cursada": 1,
+        "materia": "CÁLCULO DIFERENCIAL",
+        "codigo": "CAD-FC",
+        "calificacion": 10
+      },
+
+      {
+        "cuatrimestre": 3,
+        "cursada": 1,
+        "materia": "PROBABILIDAD Y ESTADÍSTICA",
+        "codigo": "PRE-FC",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 3,
+        "cursada": 1,
+        "materia": "PROGRAMACIÓN",
+        "codigo": "PRO-FC",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 3,
+        "cursada": 1,
+        "materia": "INTRODUCCIÓN A REDES",
+        "codigo": "INR-FC",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 3,
+        "cursada": 1,
+        "materia": "MANTENIMIENTO A EQUIPO DE CÓMPUTO",
+        "codigo": "MEC-FC",
+        "calificacion": 9
+      },
+
+
+
+      {
+        "cuatrimestre": 4,
+        "cursada": 1,
+        "materia": "INGLÉS IV",
+        "codigo": "IN4-LC",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 4,
+        "cursada": 1,
+        "materia": "HABILIDADES COGNITIVAS Y CREATIVIDAD",
+        "codigo": "HCC-CE",
+        "calificacion": 7
+      },
+
+      {
+        "cuatrimestre": 4,
+        "cursada": 1,
+        "materia": "CÁLCULO INTEGRAL",
+        "codigo": "CAI-FC",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 4,
+        "cursada": 1,
+        "materia": "INGENIERÍA DE SOFTWARE",
+        "codigo": "INS-FT",
+        "calificacion": 7
+      },
+
+      {
+        "cuatrimestre": 4,
+        "cursada": 1,
+        "materia": "ESTRUCTURA DE DATOS",
+        "codigo": "ESD-FC",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 4,
+        "cursada": 1,
+        "materia": "RUTEO Y CONMUTACIÓN",
+        "codigo": "RUC-FT",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 4,
+        "cursada": 1,
+        "materia": "ESTANCIA I",
+        "codigo": "ES1-FT",
+        "calificacion": 9
+      },
+
+
+
+
+      {
+        "cuatrimestre": 5,
+        "cursada": 1,
+        "materia": "INGLÉS V",
+        "codigo": "IN5-LC",
+        "calificacion": 10
+      },
+
+      {
+        "cuatrimestre": 5,
+        "cursada": 1,
+        "materia": "ÉTICA PROFESIONAL",
+        "codigo": "ETP-CE",
+        "calificacion": 7
+      },
+
+      {
+        "cuatrimestre": 5,
+        "cursada": 1,
+        "materia": "MATEMÁTICAS PARA INGENIERÍA I",
+        "codigo": "MI1-FC",
+        "calificacion": 7
+      },
+
+      {
+        "cuatrimestre": 5,
+        "cursada": 1,
+        "materia": "FÍSICA PARA INGENIERÍA",
+        "codigo": "FII-FC",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 5,
+        "cursada": 1,
+        "materia": "FUNDAMENTOS DE PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "codigo": "FPO-FT",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 5,
+        "cursada": 1,
+        "materia": "ESCALAMIENTO DE REDES",
+        "codigo": "ESR-FT",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 5,
+        "cursada": 1,
+        "materia": "BASE DE DATOS",
+        "codigo": "BAD-FT",
+        "calificacion": 8
+      },
+
+
+
+
+      {
+        "cuatrimestre": 6,
+        "cursada": 1,
+        "materia": "INGLÉS VI",
+        "codigo": "IN6-LC",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 6,
+        "cursada": 1,
+        "materia": "HABILIDADES GERENCIALES",
+        "codigo": "HAG-CE",
+        "calificacion": 10
+      },
+
+      {
+        "cuatrimestre": 6,
+        "cursada": 1,
+        "materia": "MATEMÁTICAS PARA INGENIERÍA II",
+        "codigo": "MI2-FC",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 6,
+        "cursada": 1,
+        "materia": "SISTEMAS OPERATIVOS",
+        "codigo": "SIO-FT",
+        "calificacion": 9
+      },
+
+      {
+        "cuatrimestre": 6,
+        "cursada": 1,
+        "materia": "PROGRAMACIÓN ORIENTADA OBJETOS",
+        "codigo": "POO-FT",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 6,
+        "cursada": 1,
+        "materia": "INTERCONEXIÓN DE REDES",
+        "codigo": "INR-FT",
+        "calificacion": 8
+      },
+
+      {
+        "cuatrimestre": 6,
+        "cursada": 1,
+        "materia": "ADMINISTRACIÓN DE BASE DE DATOS",
+        "codigo": "ABD-FT",
+        "calificacion": 8
+      },
+
+
+
+
+
+      {
+        "cuatrimestre": 7,
+        "cursada": 0,
+        "materia": "INGLÉS VII",
+        "codigo": "IN7-LC",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 7,
+        "cursada": 0,
+        "materia": "LIDERAZGO DE EQUIPOS DE ALTO DESEMPEÑO",
+        "codigo": "LEA-CE",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 7,
+        "cursada": 0,
+        "materia": "FORMULACIÓN DE PROYECTOS DE TECNOLOGÍAS DE INFORMACIÓN",
+        "codigo": "FPT-CE",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 7,
+        "cursada": 0,
+        "materia": "LENGUAJES Y AUTOMÁTAS",
+        "codigo": "LEA-FC",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 7,
+        "cursada": 0,
+        "materia": "PROGRAMACIÓN WEB",
+        "codigo": "PRW-FT",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 7,
+        "cursada": 0,
+        "materia": "INGENIERÍA DE REQUISITOS",
+        "codigo": "INR-FT",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 7,
+        "cursada": 0,
+        "materia": "ESTANCIA II",
+        "codigo": "ES2-FT",
+        "calificacion": 0
+      },
+
+
+
+
+
+
+      {
+        "cuatrimestre": 8,
+        "cursada": 0,
+        "materia": "INGLÉS VIII",
+        "codigo": "IN8-LC",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 8,
+        "cursada": 0,
+        "materia": "TECNOLOGÍAS DE VIRTUALIZACIÓN",
+        "codigo": "TEV-FT",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 8,
+        "cursada": 0,
+        "materia": "ADMINISTRACIÓN DE PROYECTOS DE TECNOLOGÍAS DE INFORMACIÓN",
+        "codigo": "APT-CE",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 8,
+        "cursada": 0,
+        "materia": "TECNOLOGÍAS Y APLICACIONES EN INTERNET",
+        "codigo": "TAI-FT",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 8,
+        "cursada": 0,
+        "materia": "DISEÑO DE INTERFACES",
+        "codigo": "DII-FT",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 8,
+        "cursada": 0,
+        "materia": "SISTEMAS INTELIGENTES",
+        "codigo": "SIN-FT",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 8,
+        "cursada": 0,
+        "materia": "GESTIÓN DE DESARROLLO DE SOFTWARE",
+        "codigo": "GDS-FT",
+        "calificacion": 0
+      },
+
+
+
+
+
+
+      {
+        "cuatrimestre": 9,
+        "cursada": 0,
+        "materia": "INGLÉS IX",
+        "codigo": "IN9-LC",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 9,
+        "cursada": 0,
+        "materia": "INTELIGENCIA DE NEGOCIOS",
+        "codigo": "INN-CE",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 9,
+        "cursada": 0,
+        "materia": "DESARROLLO DE NEGOCIOS PARA TECNOLOGÍAS DE INFORMACIÓN",
+        "codigo": "DNT-CE",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 9,
+        "cursada": 0,
+        "materia": "SISTEMAS EMBEBIDOS",
+        "codigo": "SIE-FT",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 9,
+        "cursada": 0,
+        "materia": "PROGRAMACIÓN MÓVIL",
+        "codigo": "PRM-FT",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 9,
+        "cursada": 0,
+        "materia": "SEGURIDAD INFORMÁTICA",
+        "codigo": "SEI-FR",
+        "calificacion": 0
+      },
+
+      {
+        "cuatrimestre": 9,
+        "cursada": 0,
+        "materia": "EXPRESIÓN ORAL Y ESCRITA II",
+        "codigo": "EO2-LC",
+        "calificacion": 0
+      }
+
+  ]
+}
